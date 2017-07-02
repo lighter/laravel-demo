@@ -91,5 +91,10 @@
                 </div>
             </div>
         </div>
+
+        @foreach ($links as $link)
+            <li>{{ $link->title }}</li>
+        @endforeach
+
     </body>
 </html>
